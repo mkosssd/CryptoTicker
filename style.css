@@ -3,6 +3,7 @@
   padding: 0;
   font-family: 'Phudu', cursive;
   color: whitesmoke;
+scroll-behavior:smooth;
 }
 #header nav {
   list-style: none;
@@ -12,6 +13,7 @@
   font-size: 2vw;
   justify-content: end;
   padding-right: 2vw;
+  text-decoration:none;
 }
 #header {
   background: linear-gradient(
