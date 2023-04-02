@@ -22,7 +22,7 @@ response.then((crypto)=>{
      
     }
     // <p class="foot">LAST UPDATED AT ${date.getHours()+":"+date.getMinutes()+":"+date.getSeconds()}</p>
-    time.innerHTML=`TIME LAST UPDATED: ${date.getHours()< 10?'0':''+date.getHours()}${date.getMinutes() < 10 ? '0' : '' + date.getMinutes()} HOURS, on ${date.toDateString()}`
+    time.innerHTML=`TIME LAST UPDATED: ${date.getHours()<= 10?'0':''+date.getHours()}${date.getMinutes() < 10 ? '0' : '' + date.getMinutes()} HOURS, on ${date.toDateString()}`
    
     prices.innerHTML = ihtml
 }).catch((err)=>{   
