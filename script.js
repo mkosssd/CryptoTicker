@@ -15,7 +15,7 @@ response.then((crypto)=>{
       ihtml+= `<div class="price"><h2>${crypto.pairs[key].base} </h2>
       <span>/${crypto.pairs[key].quote}</span> 
       <p>VOLUME: ${crypto.pairs[key].volume}</p>
-     <p>PRICE:${crypto.pairs[key].price_usd}</p>
+     <p>PRICE:$ ${crypto.pairs[key].price_usd}</p>
      </div>`
      
      
